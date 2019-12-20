@@ -1,0 +1,26 @@
+[
+ {
+  "id": 1,
+  "name": "Arya",
+  "lastname": "Stark",
+  "email": "arya@dh.com",
+  "password": "$2b$10$YUwTSLM6jfpXQiy5zttkEekKD2bPn3RXYCLOFQ6VnSuw/i5rpD4EG",
+  "avatar": "user_avatar_1576799947093.jpg"
+ },
+ {
+  "id": 2,
+  "name": "Jon ",
+  "lastname": "Snow",
+  "email": "jon@dh.com",
+  "password": "$2b$10$XLegyCBz0c12swyZPE4/HezhRhI3MawksSesWfECoj4jHur.ghj6q",
+  "avatar": "user_avatar_1576799989623.jpg"
+ },
+ {
+  "id": 3,
+  "name": "Yoda",
+  "lastname": "Sr.",
+  "email": "yoda@dh.com",
+  "password": "$2b$10$x/aupww4/.8HuRJqvPC9SuAR5O94941yjRcM0nEeVlWJkx1W246qC",
+  "avatar": "user_avatar_1576800034370.jpg"
+ }
+]

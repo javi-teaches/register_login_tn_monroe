@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<%- include('partials/head', { title: 'Registro' }); %>
+<body>
+	<div class="container">
+		<h2>Formulario de Registro</h2>
+		<form action="/register" method="POST" enctype="multipart/form-data">
+			<div>
+				<label>Nombre:</label>
+				<input type="text" name="name" placeholder="Ej: Ana">
+			</div>
+			<div>
+				<label>Apellido:</label>
+				<input type="text" name="lastname" placeholder="Ej: Pérez">
+			</div>
+			<div>
+				<label>Email:</label>
+				<input type="email" name="email" placeholder="Ej: email@server.com">
+			</div>
+			<div>
+				<label>Contraseña:</label>
+				<input type="password" name="password" placeholder="******">
+			</div>
+			<div>
+				<label>Repetir Contraseña:</label>
+				<input type="password" name="rePassword" placeholder="******">
+			</div>
+			<div>
+				<label>Avatar:</label>
+				<input type="file" name="avatar">
+			</div>
+			<button type="submit">Registrarse</button>
+		</form>
+	</div>
+</body>
+</html>

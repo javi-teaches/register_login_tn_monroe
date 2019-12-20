@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="es">
+<%- include('partials/head', { title: 'Profile' }); %>
+<body>
+	<div class="container">
+		<h2>Welcome: <%= `${user.name} ${user.lastname}` %></h2>
+		<img src="/images/avatars/<%= user.avatar %>" width="300">
+		<ul>
+			<li>Tu correo: <a href="mailto:<%= user.email %>"><%= user.email %></a></li>
+		</ul>
+	</div>	
+</body>
+</html>
